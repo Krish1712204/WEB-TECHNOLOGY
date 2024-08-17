@@ -1,71 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Portfolio</title>
 </head>
+
 <body>
     <header></header>
-   <h1 style="text-align: center;">My Portfolio </h1>
-   <h2>Hello it's me</h2>
-   <h1>Krishna Shelar....</h1>
-   <p>Persuing my B.Tech in Computer Science Engineering from Sanjivani College of Engineering,Kopargaon. <br>And  also I'm a Frontend Developer</p>
-   <h4> Connect Me On:</h4>
-   <p> </p>
-<img height="40" src="git.png" alt="GITHUB"> <a href="https://github.com/Krish1712204">Open Github</a> <br>
-<br><img height="40" src="linkdin.png" alt="linkdin"> <a href="https://www.linkedin.com/in/krishna-shelar-75294a255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Open linkedin</a>
-<div>
-    <h3>Education</h3>
-    <table border="2">
-        
-        <caption> Academics</caption>
-        <thead>
-        <tr>
-            <th colspan="3">PERFORMANCE IN ACADEMICS </th>
-        </tr>
-        <tr>
-            <th>Class</th>
-            <th>Percentage</th>
-            <th> Institute</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>10th</td>
-            <td>87.80%</td>
-            <td>MVB</td>
-        </tr>
-        <tr>
-            <td>12th</td>
-            <td>75.00%</td>
-            <td>SSGM</td>
-        </tr>
-        <tr>
-            <td>F.Y B.Tech</td>
-            <td>85.00%</td>
-            <td>SCOE</td>
-        </tr>
-        <tr>
-            <td>S.Y. B.Tech</td>
-            <td>88.00%</td>
-            <td>SCOE</td>
-        </tr>
-    </tbody>
-    </table>
-</div>
-<h3> Skills:</h3>
-   <ol>Programming Languages
-         <li>Python</li>
-         <li>C</li>
-         <li>C++</li>
-         <li>Core Java</li>
-         <li>HTML,CSS,JS</li>
-   </ol>
+    <h1 style="text-align: center;">My Portfolio </h1>
+    <h2>Hello it's me</h2>
+    <h1>Krishna Shelar....</h1>
+    <p>Persuing my B.Tech in Computer Science Engineering from Sanjivani College of Engineering,Kopargaon. <br>And also I'm a Frontend Developer</p>
+    <h4> Connect Me On:</h4>
+    <p> </p>
+    <img height="40" src="git.png" alt="GITHUB"> <a href="https://github.com/Krish1712204">Open Github</a> <br>
+    <br><img height="40" src="linkdin.png" alt="linkdin"> <a href="https://www.linkedin.com/in/krishna-shelar-75294a255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> Open linkedin</a>
+    <div>
+        <h3>Education</h3>
+        <table border="2">
+
+            <caption> Academics</caption>
+            <thead>
+                <tr>
+                    <th colspan="3">PERFORMANCE IN ACADEMICS </th>
+                </tr>
+                <tr>
+                    <th>Class</th>
+                    <th>Percentage</th>
+                    <th> Institute</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10th</td>
+                    <td>87.80%</td>
+                    <td>MVB</td>
+                </tr>
+                <tr>
+                    <td>12th</td>
+                    <td>75.00%</td>
+                    <td>SSGM</td>
+                </tr>
+                <tr>
+                    <td>F.Y B.Tech</td>
+                    <td>85.00%</td>
+                    <td>SCOE</td>
+                </tr>
+                <tr>
+                    <td>S.Y. B.Tech</td>
+                    <td>88.00%</td>
+                    <td>SCOE</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h3> Skills:</h3>
+    <ol>Programming Languages
+        <li>Python</li>
+        <li>C</li>
+        <li>C++</li>
+        <li>Core Java</li>
+        <li>HTML,CSS,JS</li>
+    </ol>
     <ul> Soft Skills
         <li type="square"> Communication</li>
         <li type="square">Presentation </li>
     </ul>
-    
+
+
+    <!-- Forms -->
+    <h3> Feedback Form Without using label</h3>
+    <form action="login.php">
+        Name: <input type="text" placeholder="Enter username">
+        <br> Email: <input type="text" placeholder="Enter password"><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h3> Feedback Form Using Label</h3>
+    <!-- Forms using Label -->
+    <form action="login.php">
+        <label for="firstname"> Enter firstname</label>
+        <input type="text" id="firstname">
+        <br>
+        <label for="Lastname"> Enter Lastname</label>
+        <input type="text" id="Lastname"><br>
+        <button type="button">Click Me</button><br>
+
+    </form>
+    <!-- TextArea -->
+    <h3> Give Suggestion: </h3>
+    <textarea name="Suggest " id="Suggest" rows="5" cols="20"></textarea>
+    <br>
+    <br>
+    <!-- Media Elements -->
+    *SampleAudio
+
+    <br>
+
+    <audio src="Sajde_192(PagalWorld.com.sb).mp3 " controls loop> Music </audio>
+    <br>
+    <br> *Sample Video
+    <br>
+    <br>
+    <video src="Ek Phool TDM Bhaurao Karhade Rohit Nagbhide Onkarswaroop Priyanka Barve Pruthvi-Kalindi [TubeRipper.cc].mp4" controls loop muted height="200" width="400"></video><br><br> What you Liked Most in Portfolio
+
+    <!-- Select tag -->
+    <select>
+        <option>Select</option>
+        <option>Interface</option>
+        <option>Design</option>
+        <option>Nav Bar</option>
+        <option>Content</option>
+    </select>
 </body>
+
 </html>
