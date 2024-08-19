@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line</title>
+</head>
+
+<body>
+    <canvas id="can1" width="200" height="200"></canvas>
+    <script>
+        let x = document.getElementById("can1");
+        let content = x.getContext('2d');
+
+        // To Draw a line
+
+        content.beginPath();
+        content.moveTo(50, 200);
+        content.lineTo(300, 200);
+        content.strokeStyle = "#ff0000";
+        content.lineWidth = 5;
+        content.stroke();
+    </script>
+</body>
+
+</html>
