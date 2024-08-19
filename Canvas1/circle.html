@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas</title>
+</head>
+<canvas id="can1" width="400" height="300">   </canvas>
+
+<script>
+    let x = document.getElementById("can1"); //id
+    let context = x.getContext("2d"); //To create graphics
+
+
+    //Arc() method to create circle or Arc
+    context.arc(200, 200, 100, 0, 2 * Math.PI);
+    //(x,y,radius,startangle,endangle of circle or arc)
+
+
+    context.fillStyle = "red"; //property
+    context.fill(); //Method
+
+
+    context.strokeStyle = "blue"; //Property
+    context.stroke(); //Method
+</script>
+
+<body>
+
+</body>
+
+</html>
+
+</html>
