@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semicircle</title>
+</head>
+
+<body>
+    <canvas id="can1" width="1000" height="2000"></canvas>
+    <script>
+        let x = document.getElementById("can1");
+        let content = x.getContext('2d');
+
+        // to draw a circle or semi-circle
+
+        content.beginPath();
+        content.arc(150, 150, 50, 0, Math.PI); //for semi-circle
+        // content.strokeStyle="#ff0000";
+        content.stroke();
+
+
+        content.beginPath();
+        content.arc(150, 300, 50, 0, Math.PI * 2); //for circle
+        // content.strokeStyle="#ff0000";
+        content.stroke();
+    </script>
+</body>
+
+</html>
