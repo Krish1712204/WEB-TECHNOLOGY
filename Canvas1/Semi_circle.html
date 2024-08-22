@@ -13,16 +13,17 @@
         let x = document.getElementById("can1");
         let content = x.getContext('2d');
 
-        // to draw a circle or semi-circle
+        // to Draw a circle or semi-circle
 
         content.beginPath();
-        content.arc(150, 150, 50, 0, Math.PI); //for semi-circle
-        // content.strokeStyle="#ff0000";
+        content.arc(100, 100, 50, 0, Math.PI); //for semi-circle
+        //(x,y,radius,startangle,endangle of circle or arc)
+        content.strokeStyle = "#ff0000";
         content.stroke();
 
 
         content.beginPath();
-        content.arc(150, 300, 50, 0, Math.PI * 2); //for circle
+        content.arc(100, 300, 50, 0, Math.PI * 2); //for circle
         // content.strokeStyle="#ff0000";
         content.stroke();
     </script>
